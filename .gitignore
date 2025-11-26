@@ -35,3 +35,6 @@ database.sqlite
 
 # MCP configuration (local development)
 .mcp.json
+
+# Ignore Prisma folder (different configs for local SQLite vs production PostgreSQL)
+/prisma/
